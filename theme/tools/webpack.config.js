@@ -345,7 +345,7 @@ function copyFolders() {
 
 function getParameters() {
     var possibleArgs = [
-        
+
         'js', 'css', 'scss',
         'alldemos', 'rtl', 'prod', 'production', 'localhost', 'dark_mode',
     ];
@@ -459,7 +459,7 @@ function getTheme(args) {
     let theme = "metronic";
     if (theme === 'metronic') {
         let themes = [
-            
+
         ];
         args.some(function (t) {
             if (themes.indexOf(t) !== -1) {

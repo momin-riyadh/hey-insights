@@ -172,9 +172,9 @@ buildTasks.push(buildBundleTask);
 const buildTask = gulp.series(...buildTasks);
 
 // Exports
-export { 
-  rtlTask, 
-  buildBundleTask, 
+export {
+  rtlTask,
+  buildBundleTask,
   compileTask,
   buildTask
 };
