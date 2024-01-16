@@ -13,10 +13,10 @@
 
 - Get the old Metronic 7 & Metronic 6 versions from [Private Guthub Repository](//keenthemes.com/metronic/?page=github)
 
-- amCharts 15% Discount Code For Keenthemes Users
+- amCharts 15% Discount Code ForgPlex Users
   You can download and use all amCharts products for free. The only limitation of the free version is that a small link to this web site will be 
   displayed in the top left corner of your charts. If you would like to use charts without this link, or you appreciate the software and would 
-  like to support its creators, please purchase a commercial license. Keenthemes users can exclusively use "keenthemes" promo 
+  like to support its creators, please purchase a commercial license.gPlex users can exclusively use "keenthemes" promo 
   code(without quotes, case insensitive) for 15% DISCOUNT for commercial license of amCharts. For more info please check [amCharts Site](www.amcharts.com/)
 
 - Stay tuned for updates via [Twitter]//www.twitter.com/keenthemes and [Instagram]//www.instagram.com/keenthemes and 
