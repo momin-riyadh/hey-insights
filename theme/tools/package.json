@@ -1,7 +1,7 @@
 {
-    "name": "gplex-admin",
+    "name": "Hey-insights-admin",
     "version": "8.0.25",
-    "description": "gPlex - Bootstrap 5 HTML, Admin Dashboard Theme",
+    "description": "Hey-insights - Bootstrap 5 HTML, Admin Dashboard Theme",
     "main": "gulpfile.js",
     "type": "module",
     "dependencies": {
