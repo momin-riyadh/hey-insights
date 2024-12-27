@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-  --bs-blue: #009ef6;
+  --bs-blue: #71cdca;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -23,7 +23,7 @@
   --bs-gray-900: #181C32;
   --bs-white: #ffffff;
   --bs-light: #F5F8FA;
-  --bs-primary: #009EF7;
+  --bs-primary: #71cdca;
   --bs-secondary: #E4E6EF;
   --bs-success: #50CD89;
   --bs-info: #7239EA;
@@ -47317,7 +47317,7 @@ body {
     right: 0;
     left: 0;
     z-index: 100;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     height: 65px;
     padding: 0;
     box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
@@ -47371,7 +47371,7 @@ body {
 .toolbar {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 0.5rem;
 }
 
@@ -47383,7 +47383,7 @@ body {
     right: 0;
     left: 0;
     z-index: 99;
-    box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+    /* box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05); */
   }
   .toolbar-enabled:not(.toolbar-fixed) .toolbar {
     margin-bottom: 30px;
