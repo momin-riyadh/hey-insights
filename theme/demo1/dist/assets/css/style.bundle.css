@@ -47317,7 +47317,7 @@ body {
     right: 0;
     left: 0;
     z-index: 100;
-    /* background-color: #ffffff; */
+    background-color: #f4f6f8;
     height: 65px;
     padding: 0;
     box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
@@ -47371,7 +47371,7 @@ body {
 .toolbar {
   display: flex;
   align-items: center;
-  /* background-color: #ffffff; */
+  background-color: #f4f6f8;
   padding: 0.5rem;
 }
 
@@ -47383,7 +47383,7 @@ body {
     right: 0;
     left: 0;
     z-index: 99;
-    /* box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05); */
+    box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
   }
   .toolbar-enabled:not(.toolbar-fixed) .toolbar {
     margin-bottom: 30px;
