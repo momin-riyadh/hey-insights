@@ -47328,6 +47328,7 @@ body {
   .aside-enabled.aside-fixed.header-fixed .header {
     left: 265px;
     transition: left 0.3s ease;
+    display: none;
   }
   .aside-enabled.aside-fixed.header-fixed[data-kt-aside-minimize=on] .header {
     left: 75px;
@@ -47390,7 +47391,7 @@ body {
   }
   .header-fixed.toolbar-fixed .toolbar {
     padding: 0;
-    top: 65px;
+    top: 0;
     border-top: 1px solid #EFF2F5;
   }
   .aside-enabled.aside-fixed.toolbar-fixed .toolbar {
