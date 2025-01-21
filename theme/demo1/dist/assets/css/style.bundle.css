@@ -60,6 +60,17 @@
   box-sizing: border-box;
 }
 
+div#viz-viewer-toolbar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    outline: none;
+    background-color: rgb(250, 250, 250);
+    justify-content: space-between;
+    padding: 0px 24px;
+    display: none;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
