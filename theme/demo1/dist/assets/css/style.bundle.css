@@ -61,7 +61,10 @@
 }
 
 div#toolbar-container {
-    display: none;
+    display: none !important;
+}
+div#toolbar-container > #viz-viewer-toolbar {
+    display: none !important;
 }
 
 body {
