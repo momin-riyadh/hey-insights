@@ -772,12 +772,10 @@ License: MIT License
                             </object>
                         </div>
                         <script type='text/javascript'>                    var divElement = document.getElementById('viz1738474301851');
-                        var footerElement = document.getElementById('viz-viewer-toolbar');
                         var vizElement = divElement.getElementsByTagName('object')[0];
                         if (divElement.offsetWidth > 800) {
                             vizElement.style.width = '1400px';
                             vizElement.style.height = '2527px';
-                            footerElement.style.display = 'none';
                         } else if (divElement.offsetWidth > 500) {
                             vizElement.style.width = '1400px';
                             vizElement.style.height = '2527px';
@@ -3925,56 +3923,6 @@ License: MIT License
 <script src="assets/js/custom/modals/create-app.js"></script>
 <script src="assets/js/custom/modals/upgrade-plan.js"></script>
 <!--end::Page Custom Javascript-->
-<script>
-    // Option 1: JavaScript solution to inject styles into iframe
-    function injectStylesIntoTableauIframe() {
-        // Find the Tableau iframe
-        const tableauIframe = document.querySelector('iframe[src*="tableau"]');
-
-        if (tableauIframe && tableauIframe.contentWindow) {
-            // Wait for iframe to load
-            tableauIframe.onload = function() {
-                try {
-                    // Create style element
-                    const style = document.createElement('style');
-                    style.textContent = `
-                    #viz-viewer-toolbar {
-                        display: none !important;
-                        visibility: hidden !important;
-                    }
-                    /* Add more specific selectors as needed */
-                `;
-
-                    // Inject into iframe
-                    tableauIframe.contentDocument.head.appendChild(style);
-                } catch (error) {
-                    console.error('Failed to inject styles:', error);
-                }
-            };
-        }
-    }
-
-    // Option 2: Using iframe messaging if available in Tableau API
-    window.addEventListener('message', function(event) {
-        // Verify the origin for security
-        if (event.origin === "https://public.tableau.com/javascripts/api/viz_v1.js") {
-            if (event.data.type === 'tableauLoaded') {
-                // Apply styles or hide elements
-                const viz = document.querySelector('iframe[src*="tableau"]');
-                // Handle the viz accordingly
-            }
-        }
-    });
-
-    // Option 3: Using Tableau's API events
-    viz.addEventListener(tableau.TableauEventName.RENDER, function() {
-        // Apply your hiding logic here after render
-        const vizElement = viz.getParentElement();
-        // Modify the visualization container or specific elements
-    });
-</script>
-
-
 <!--end::Javascript-->
 </body>
 <!--end::Body-->
